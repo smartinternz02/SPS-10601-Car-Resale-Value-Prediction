@@ -6,10 +6,10 @@ import java.io.*;
 
 public class DataCleaning {
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\dell\\eclipse-workspace\\org.dl\\src\\main\\java\\org\\dl\\test-data.csv"));
-		BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\dell\\eclipse-workspace\\org.dl\\src\\main\\java\\org\\dl\\test_data.csv"));
-		//BufferedReader br1 = new BufferedReader(new FileReader("C:\\Users\\dell\\eclipse-workspace\\org.dl\\src\\main\\java\\org\\dl\\train-data.csv"));
-		//BufferedWriter bw1 = new BufferedWriter(new FileWriter("C:\\Users\\dell\\eclipse-workspace\\org.dl\\src\\main\\java\\org\\dl\\clean_data.csv"));
+		BufferedReader br = new BufferedReader(new FileReader("E:/oracleProject/test-data.csv"));
+		BufferedWriter bw = new BufferedWriter(new FileWriter("E:/oracleProject/test_data.csv"));
+		//BufferedReader br1 = new BufferedReader(new FileReader("E:/oracleProject/train-data.csv"));
+		//BufferedWriter bw1 = new BufferedWriter(new FileWriter("E:/oracleProject/clean_data.csv"));
 		
 		String line = "";
 		while ((line = br.readLine()) != null) {
